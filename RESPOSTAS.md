@@ -123,3 +123,13 @@ Em seguida, código já testável: um serviço de checkout que faz a reserva at�
 E, por fim, uma revisão crítica do que saiu: procurar condições de corrida que tenham escapado e cenários onde o estoque possa "vazar" (falha entre reservar e confirmar), além de pensar a reconciliação com o estoque real do ERP.
 
 No fim, a IA serve de acelerador e de segunda opinião, mas quem decide onde colocar a reserva e como conciliar isso com o estoque real do ERP sou eu. É decisão de arquitetura, não de digitação.
+
+---
+
+## Parte 1.B — Mini-tarefa de Código
+
+Repositório público com a implementação (back-end Node + TypeScript, front React + TypeScript, testes e README):
+
+**https://github.com/Caio-Dias02/Challenge-CellShop**
+
+Os prompts de IA usados ao longo do desafio estão no `PROMPTS.md` do próprio repositório.
